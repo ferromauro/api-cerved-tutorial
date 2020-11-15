@@ -6,7 +6,7 @@ L'intenzione del codice contenuto inquesto repository e solo quello di mostrare 
 
 Per poter utilizzare il servizio offerto dalla *Cerved Group S.p.a.* sarà necessario effettuare la registrazione sul loro sito per ottenere le credenziali ed in particolare una **CONSUMER_KEY** che dovrete inserire nel file settings.py.
 
-*Nota: fate attenzione a non pubblicare o diffondere erroneamente la vostra CONSUMER_KEY!*
+> *Nota: fate attenzione a non pubblicare o diffondere erroneamente la vostra CONSUMER_KEY!*
 
 In questo tutorial vengono implementati solo alcuni dei servizi offerti dall'API:
 
@@ -19,11 +19,12 @@ In questo tutorial vengono implementati solo alcuni dei servizi offerti dall'API
 *Utilizzo: main.py -p profile -i 'ID_SOGGETTO'*
 
 - **Entity Contacts**: permette di avere i dati relativi ai contatti di un profilo in base alla ricerca per id_soggetto.
-    
+
     main.py -p contacts -i 'ID_SOGGETTO'
 
 - **Entity PEC**: permette di avere la PEC di un profilo in base alla ricerca per id_soggetto.
-    
+
     main.py -p pec -i 'ID_SOGGETTO
+
 
 
