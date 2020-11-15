@@ -21,10 +21,14 @@ In questo tutorial vengono implementati solo alcuni dei servizi offerti dall'API
 - **Entity Contacts**: permette di avere i dati relativi ai contatti di un profilo in base alla ricerca per id_soggetto.
 
     main.py -p contacts -i 'ID_SOGGETTO'
+    main.py -p pec -i 'ID_SOGGETTO
+
 
 - **Entity PEC**: permette di avere la PEC di un profilo in base alla ricerca per id_soggetto.
 
     main.py -p pec -i 'ID_SOGGETTO
+
+
 
 
 
